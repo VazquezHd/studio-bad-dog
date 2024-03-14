@@ -10,43 +10,76 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <!-- icono de la pestaña de arriba -->
     <link rel="icon" href="assets/favicon.png">
+
   </head>
 
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="assets/bad-dog-studio-logo.png" alt="studio bad dog"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- con border, puedes visualizar las cajas -->
+    <nav class="navbar navbar-expand-lg bg-dark margin-0" data-bs-theme="dark">
+      <div class="container">
+        <!-- icono de la nav -->
+        <a class="navbar-brand " href="index.html"><img src="assets/bad-dog-studio-logo.png" alt="studio bad dog"></a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
+        <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+          <!-- ms-lg-auto para ponerle un margin en la izquierda, margin, start(izquierda)- el tamaño del que va a partir y auto -->
+          <ul class="navbar-nav ms-lg-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown link
-              </a>
+                Sitios </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><a class="dropdown-item" href="sitios.html#ultimos-proyectos">Ultimos proyectos</a></li>
+                <li><a class="dropdown-item" href="sitios.html#single-page">Sitio <i>Single Page</i></a></li>
+                <li><a class="dropdown-item" href="sitios.html#multi-page">Sitio <i>Multi Page</i></a></li>
               </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="clientes.html">Clientes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comencemos.html">Comencemos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Interesado?</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+
+    <main>
+      <h1>Seccion inicio</h1>
+    </main>
+
+
+
+
+    <!-- footer -->
+      <!-- meter padding al foooter con p-3 -->
+    <footer class="bg-dark text-white p-3">
+      <div class="container text-center">
+        <!-- para repartir los iconos nos vamos a la documentacion, a utilities y a flex, no es necesario aprender todo -->
+        <!-- fs-3 es font-size, para aumentar el tamano -->
+        <nav class="d-flex justify-content-evenly fs-3">
+          <a href="https://vazquez-hd.vercel.app/" target="_blank"><i class="bi bi-briefcase-fill"></i></a>
+          <a href="https://https://github.com/VazquezHd" target="_blank"><i class="bi bi-github"></i></a>
+          <a href="https://www.linkedin.com/in/ivan-v%C3%A1zquez-1347b9241/" target="_blank"><i class="bi bi-linkedin"></i></a>
+          <a href="https://www.instagram.com/vazquez.hd/" target="_blank"><i class="bi bi-instagram"></i></a>
+        </nav>
+        <small>&copy; 2024 Vazquez.HD. Hecho con Bootstrap.</small>
+      </div>
+      
+      
+
+    </footer>
 
 
 
