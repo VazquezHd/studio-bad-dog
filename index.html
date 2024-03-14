@@ -59,7 +59,7 @@
     <main class="pt-5 bg-gradient-blue-green">
       <div class="container  fs-5">
         <!-- la clase row esta maquetada con flexbox -->
-        <section class="row text-white align-items-lg-center">
+        <section class="row text-white align-items-lg-center mb-5">
           <article class="col-12 col-lg-5">
             <h2>¿Necesitas un increíble sitio web?</h2>
             <p>Un sitio hermoso, moderno, responsivo y personalizado para tu compañia, negocio, marca, servicio o producto.</p>
@@ -80,7 +80,65 @@
             <img class="img-fluid" src="assets/header-image-2.png" alt="Sitios web responsivos">
           </article>
         </section>
-        <section id="servicios" class="row"></section>
+
+        <!-- min-vh-100 tamaño de la pantalla -->
+        <!-- align-items-lg-center como el row esta maquetado con flexbox, asi centras los elementos en tamaño lg -->
+        <section id="servicios" class="row align-items-lg-center min-vh-100">
+          <!-- col-12 col-md-6 col-xl-3 con esto juegas con los tamaños, recuerda que son 12 columnas, si pones 6, va a tomar la mitad -->
+          <article class="col-12 col-md-6 col-lg-3 d-flex">
+            <!-- mx-auto es margin x es a ixquierda y a derecha, apra centrar y mb-3 es margin bottom, abajo para separar las -->
+            <div class="card mx-auto mb-3" style="width: 18rem;">
+              <img src="assets/icon-sites.png" class="card-img-top bg-third-color" alt="Nuevo sitio web">
+              <div class="card-body">
+                <h5 class="card-title">Nuevo sitio web</h5>
+                <p class="card-text">¿Necesitas un (nuevo) sitio web 100% responsivo?
+                </p>
+                <a href="sitios.html" class="text-third">Más detalles
+                  <i class="bi bi-chevron-compact-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3 d-flex">
+            <div class="card mx-auto mb-3" style="width: 18rem;">
+              <img src="assets/icon-clients.png" class="card-img-top bg-third-color" alt="Clientes">
+              <div class="card-body">
+                Clientes<p class="card-text">Clientes felices y proyectos hermosos.
+                </p>
+                <a href="clientes.html" class="text-third">Más detalles
+                  <i class="bi bi-chevron-compact-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3 d-flex">
+            <div class="card mx-auto mb-3" style="width: 18rem;">
+              <img src="assets/icon-workflow.png" class="card-img-top bg-third-color" alt="Flujo de Trabajo">
+              <div class="card-body">
+                <h5 class="card-title">Flujo de Trabajo</h5>
+                <p class="card-text">Escucho tus necesidades. Discutamos tu proyecto.
+                </p>
+                <a href="comencemos.html" class="text-third">Más detalles
+                  <i class="bi bi-chevron-compact-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3 d-flex">
+            <div class="card mx-auto mb-3" style="width: 18rem;">
+              <img src="assets/icon-about.png" class="card-img-top bg-third-color" alt="¿Interesado?">
+              <div class="card-body">
+                <h5 class="card-title">¿Interesado?</h5>
+                <p class="card-text">Comencemos con tu nuevo proyecto.
+                </p>
+                <a href="contacto.html" class="text-third">Más detalles
+                  <i class="bi bi-chevron-compact-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </section>
       </div>
     </main>
 

@@ -114,8 +114,30 @@ a:hover{
   );
 }
 
+/* aqui creas una variable de color para llamarlo en el html */
 
+.bg-color{
+  background-color: var(--bg-color);
+}
 
+.bg-alpha-color{
+  background-color: var(--bg-alpha-color);
+}
+
+.bg-third-color {
+  background-color: var(--third-color);
+}
+
+.text-third{
+  color: var(--third-color);
+}
+
+.bg-hero-image{
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 
 
