@@ -114,6 +114,10 @@ a:hover{
   );
 }
 
+.bg-second-alpha-color{
+  background-color: var(--second-alpha-color);
+}
+
 /* aqui creas una variable de color para llamarlo en el html */
 
 .bg-color{
